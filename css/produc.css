@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+.float-left{
+    float: left;
+}
+a:hover{
+    color: #ff3c3c;
+}
+.container{
+    height: 5220px;
+    width: 1200px;
+    margin: 0 auto;
+}
+#menu{
+    width: 100%;
+    height: 43px;
+    border-bottom: 2px solid #ff4e00;
+    line-height: 43px;
+
+}
+#menu-left{
+    width: 220px;
+    height: 100%;
+    background: #ff3c3c;
+    display: inline-block;
+    float: left;
+    color: #fff;
+    text-indent: 44px;
+}
+#menu-right{
+    float: right;
+    font-size: 12px;
+}
+#menu ul{
+    list-style: none;
+
+}
+#menu ul li{
+    font-weight: bold;
+    float: left;
+    margin: 0 8px;
+    padding: 0 10px;
+}
+#search-small{
+    margin: 15px 0;
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #555;
+}
+#search-small p{
+    border: 1px dashed #ff4e00;
+    padding: 0 10px;
+    display: inline-block;
+}
+#search-small span{
+    color: #ff3200;
+}
+#part div{
+ float: left;
+}
+#image{
+    position: relative;
+    width: 390px;
+    height: 390px;
+    background: #4AAA02;
+    border: 1px solid #ccc;
+}
+#mouse{
+    display: none;
+    position: absolute;
+    width: 195px;
+    height: 195px;
+    background-color: rgba(7,0,17,0.5);
+    top: 0;
+    left: 0;
+}
+#zoom{
+    border: 1px solid #7a7a7a;
+    overflow: hidden;
+    display: none;
+    position:relative;
+    top: -400px;
+    left: 500px;
+    width: 390px;
+    height: 390px;
+    background-color: #4AAA02;
+}
+#zoom img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+#intro{
+    width: 520px;
+    height: 390px;
+    color: #888;
+    padding-left: 20px;
+}
+#intro p{
+    margin: 20px 0;
+}
+#intro #sec{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3e3e3e;
+}
+#intro #price{
+    font-size: 18px;
+    color: #ff3c3c;
+}
+#intro .size{
+    cursor: pointer;
+    display: inline-block;
+    line-height: 26px;
+    text-align: center;
+    font-size: 12px;
+    width: 66px;
+    height: 30px;
+    border: 2px solid #cccccc;
+    margin: 10px ;
+}
+#intro .size:hover{
+    border: 2px solid #ff3c3c;
+}
+#intro .color{
+    cursor: pointer;
+    margin-right: 14px;
+     display: inline-block;
+     line-height: 26px;
+     padding: 0 8px;
+     text-align: center;
+     font-size: 12px;
+     width: 40px;
+     height: 30px;
+     border: 2px solid #cccccc;
+ }
+#intro .color:hover{
+    border: 2px solid #ff3c3c;
+}
+
+ #intro #sum{
+     float: left;
+     display: block;
+     width: 80px;
+     height: 45px;
+ }
+#intro #sum {
+    width: 56px;
+    height: 43px;
+}
+#intro #btn-1,#btn-2{
+    cursor: pointer;
+    display: block;
+    width: 20px;
+    height: 23px;
+    border: 1px solid #cccccc;;
+}
+#intro #btn-1{
+    background: url("../images/jia.gif") no-repeat center top;
+}
+#intro #btn-2{
+    background: url("../images/jian.gif") no-repeat center top;
+}
+
+
+#intro button{
+    margin-left: 10px;
+    border: 0;
+    width: 180px;
+    height: 45px;
+    background-image:url("../images/j_car.png");
+}
+
+#other{
+    width: 190px;
+    height: 190px;
+
+}
+#other p{
+    width: 188px;
+    height: 55px;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0;
+    line-height: 55px;
+    background: #f6f6f6;
+}
+#small-image{
+    width: 360px;
+    height: 100px;
+
+}
+#small-image ul {
+    list-style: none;
+}
+#small-image ul li{
+    float: left;
+    padding: 2px;
+}
+#small-image img{
+    width: 85px;
+    height: 85px;
+}
+#sidebar{
+        width: 240px;
+        height: 800px;
+
+}
+#sidebar h1{
+    width: 209px;
+    height: 29px;
+    background-color: #f6f6f6;
+    font-size: 14px;
+    color: #555;
+}
+#sidebar ul {
+    list-style: none;
+}
+#sidebar li {
+    text-align: center;
+    font-size: 14px;
+    width: 209px;
+    height: 241px;
+}
+
+#section{
+    width: 960px;
+    height: 800px;
+
+}
+#section ul{
+    list-style: none;
+}
+#section ul li {
+    float: left;
+}
+
+#section #adv h1,#section #attr h1,#section #definite h1,#section #discuss h1{
+    font-size: 14px;
+  width: 960px;
+    height: 29px;
+    background-color: #f6f6f6;
+    color: #555;
+}
+#adv .imgs{
+    float: left;
+    margin-top:80px;
+}
+ #adv ul{
+    list-style: none;
+}
+#section #adv .team-item{
+    width: 160px;
+    height: 195px;
+    margin: 20px 20px;
+    text-align: center;
+
+
+}
+#section #adv .pick{
+    padding: 0 30px;
+
+}
+#section #adv  a{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #555;
+    float: left;
+}
+#section #adv .team-item img{
+    width: 160px;
+    height: 140px;
+}#item-sum{
+    width: 145px;
+    height: 125px;
+
+    margin-top: 50px;
+ }
+#item-sum input{
+    width: 60px;
+    height: 25px;
+}
+#item-sum p{
+    color: #ff4e00;
+}
+#item-sum span{
+    font-size: 18px;
+
+}
+#section #attr  span {
+    width: 110px;
+    height: 29px;
+    display: block;
+    float: left;
+    line-height: 29px;
+    text-align: center;
+
+}
+#section #attr  .first{
+
+    border-top: 2px solid #ff4e00;
+    height: 27px;
+}
+#section #attr table{
+    margin-left: 10px;
+    width: 920px;
+    height: 95px;
+}
+#section #definite h1,#section #discuss h1{
+    border-top: 2px solid #ff4e00;
+}
+#section #definite ul li {
+    margin: 0 100px;
+}
+#section #discuss table{
+  font-size: 12px;
+}
+#section #discuss .per{
+    width: 200px;
+    height: 85px;
+}
+#section #discuss .goods{
+    width: 200px;
+    height: 85px;
+}
+#section #discuss .say{
+    width: 520px;
+    height: 85px;
+}
+#section #discuss .word{
+    width: 245px;
+    height: 147px;
+}
+#section #discuss #for{
+    width: 204px;
+    height: 147px;
+}#section #discuss #one{
+    width: 176px;
+    height: 127px;
+ }
+#section #discuss #page a{
+    height: 10px    ;
+    text-decoration: none;
+    color: #555;
+    padding: 0 12px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+}
+#section #discuss #page{
+    float: right;
+}
+
+
+
+
+
+
+
